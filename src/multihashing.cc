@@ -85,6 +85,7 @@ using namespace v8;
  DECLARE_CALLBACK(fugue, fugue_hash, 32);
  DECLARE_CALLBACK(groestl, groestl_hash, 32);
  DECLARE_CALLBACK(groestlmyriad, groestlmyriad_hash, 32);
+ DECLARE_CALLBACK(heavyhash, heavyhash_hash, 32);
  DECLARE_CALLBACK(hefty1, hefty1_hash, 32);
  DECLARE_CALLBACK(keccak, keccak_hash, 32);
  DECLARE_CALLBACK(lbry, lbry_hash, 32);
@@ -398,6 +399,7 @@ NAN_MODULE_INIT(init) {
     NAN_EXPORT(target, fugue);
     NAN_EXPORT(target, groestl);
     NAN_EXPORT(target, groestlmyriad);
+    NAN_EXPORT(target, heavyhash);
     NAN_EXPORT(target, hefty1);
     NAN_EXPORT(target, keccak);
     NAN_EXPORT(target, lbry);
