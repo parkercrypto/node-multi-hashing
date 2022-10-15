@@ -1,5 +1,5 @@
 #include "heavyhash.h"
-#include "crypto/heavyhash/keccak_tiny.h"
+#include "heavyhash/keccak_tiny.h"
 
 #include <inttypes.h>
 #include <string.h>
