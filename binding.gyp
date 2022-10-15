@@ -13,7 +13,7 @@
                 "src/fresh.c",
                 "src/fugue.c",
                 "src/groestl.c",
-                "src/heavyhash.c",
+                "src/crypto/heavyhash.c",
                 "src/hefty1.c",
                 "src/keccak.c",
                 "src/lbry.c",

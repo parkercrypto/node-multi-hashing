@@ -37,6 +37,7 @@ extern "C" {
     #include "neoscrypt.h"
     #include "crypto/argon2/argon2.h"
     #include "crypto/yescrypt/yescrypt.h"
+    #include "crypto/heavyhash.h"
 }
 
 #include "boolberry.h"
